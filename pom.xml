@@ -143,6 +143,11 @@
         </executions>
       </plugin>
       <plugin>
+       <groupid>org.jacoco</groupid>
+       <artifactid>jacoco-maven-plugin</artifactid>
+       <version>0.8.0</version>
+      </plugin>
+      <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>cobertura-maven-plugin</artifactId>
         <version>${cobertura.version}</version>
